@@ -57,28 +57,3 @@ canvas.addEventListener(
   },
   { once: true }
 );
-// let points = [
-//   new Point(canvas.width / 2, canvas.height / 2 - 100),
-//   new Point(canvas.width / 2 + 100, canvas.height / 2 + 100),
-//   new Point(canvas.width / 2 - 100, canvas.height / 2 + 100),
-// ];
-
-// const start = () => {
-//   points.forEach((point) => {
-//     point.draw();
-//     console.log(point);
-//   });
-// };
-
-// start();
-
-// const animate = () => {
-//   for (let i = 0; i < 200; i++) {
-//     if (i === 0) {
-//       const newPoint = new Point(Math.random()*canvas.width, Math.random()*canvas.height);
-//     }
-//     let randomPoint = points[Math.floor(Math.random() * points.length)];
-//   }
-// };
-
-// animate();
